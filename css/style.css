@@ -23,13 +23,6 @@ p {
   margin: 0;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  line-height: 1.1;
-}
-
 .flowise>* {
   margin-bottom: 1rem;
 }
@@ -82,7 +75,7 @@ main {
   border-radius: 20px;
 }
 
-.card > * {
+.card>* {
   margin-left: auto;
   margin-right: auto;
 }
