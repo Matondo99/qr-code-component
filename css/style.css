@@ -47,9 +47,58 @@ img {
   display: block;
 }
 
+body {
+  margin: 0;
+  padding: 2rem 1.5rem;
+  color: var(--clr-neutral-40);
+  background: var(--clr-neutral-10);
+  font-family: var(--ff-sans);
+  font-size: var(--fz-15px);
+  font-weight: var(--fw-400);
+  text-align: center;
+  line-height: 1.4;
+  /* presentation */
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  color: var(--clr-neutral-70);
+  font-size: 22px;
+  font-weight: var(--fw-700);
+}
+
+main {
+  margin: auto;
+}
+
+.card {
+  max-width: 320px;
+  padding: 1rem 1rem 2.25rem;
+  background: var(--clr-neutral-00);
+  border-radius: 20px;
+}
+
+.card > * {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card img {
+  border-radius: 13px;
+}
+
+.card p {
+  width: 85%;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin: 1.5rem auto 0;
 }
 
 .attribution a {
